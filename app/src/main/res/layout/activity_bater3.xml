@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bater3">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="368dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="13dp"
+        android:text="মিতব্যয়ী বোলিংয়ে আফ্রিদির রেকর্ড ছুঁলেন নাহিদুল"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="368dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="17dp"
+        android:text="প্রকাশ: ২৫ জানুয়ারি ২০২২, ২১: ০৯"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="279dp"
+        android:layout_height="143dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/mtm" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="396dp"
+        android:layout_height="390dp"
+        android:layout_marginBottom="8dp"
+        android:text="বিপিএলে ‘মিতব্যয়ী’ বোলিংয়ে শহীদ আফ্রিদির রেকর্ড ছুঁলেন নাহিদুল ইসলাম। কুমিল্লা ভিক্টোরিয়ানসের অফ স্পিনার আজ ফরচুন বরিশালের বিপক্ষে ৪ ওভারে মাত্র ৫ রান দিয়ে নিয়েছেন ৩ উইকেট। ওভারপ্রতি ১.২৫ রান করে দিয়েছেন তিনি।
+
+২০১৫ সালে বরিশাল বুলসের বিপক্ষে ৪ ওভারে ৫ রান দিয়েছিলেন আফ্রিদিও। সেবার সিলেট সুপার স্টারসের হয়ে খেলেছিলেন পাকিস্তানের সাবেক অধিনায়ক।
+
+বরিশাল সে ম্যাচে গুটিয়ে গিয়েছিল মাত্র ৫৮ রানে। আফ্রিদি নিয়েছিলেন ২ উইকেট। ওই ম্যাচে আফ্রিদি এসেছিলেন ইনিংসে পঞ্চম বোলার হিসেবে।
+আজ নাহিদুলকে দিয়েই ইনিংস শুরু করিয়েছেন কুমিল্লা অধিনায়ক ইমরুল কায়েস। প্রথম ওভারেই আঘাত করেন নাহিদুল। স্লগ করতে গিয়ে মিডউইকেটে ক্যাচ দেন সৈকত আলী।
+
+করিম জানাত অবশ্য প্রথম দফায় ক্যাচটা নিতে পারেননি, হাত ফসকে বের হয়ে গেলেও বল পড়ে করিমের পায়ের ওপর। সামনে ঝুঁকে ক্যাচটা নেন তিনি।
+দ্বিতীয় ওভারে নাহিদুল ফেরান বরিশাল অধিনায়ক সাকিব আল হাসানকে। "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

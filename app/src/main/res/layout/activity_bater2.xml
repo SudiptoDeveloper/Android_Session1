@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bater2">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="379dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="13dp"
+        android:text="রাতের শিশিরেও সাকিবদের দিন দেখাল কুমিল্লা"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="342dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="17dp"
+        android:text="প্রকাশ: ২৫ জানুয়ারি ২০২২, ২১: ৫৩"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="279dp"
+        android:layout_height="143dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/injury" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="396dp"
+        android:layout_height="390dp"
+        android:layout_marginBottom="8dp"
+        android:text="সংক্ষিপ্ত স্কোর:
+
+কুমিল্লা ভিক্টোরিয়ানস: ২০ ওভারে ১৫৮/৭ (ডেলপোর্ট ১৯, মাহমুদুল ৪৮, ডু প্লেসি ৬, ইমরুল ১৫, মুমিনুল ১৭, করিম ২৯*, মাহিদুল ৮, নাহিদুল ০, শহীদুল ৫; সাকিব ২/২৫, নাঈম ১/৩১, তাইজুল ০/২২, লিনটন ১/১৮, ব্রাভো ৩/৩০, জিয়াউর ০/২৭)
+
+ফরচুন বরিশাল: ১৭.৩ ওভারে ৯৫ (সৈকত ০, নাজমুল ৩৬, সাকিব ১, তৌহিদ ১৯, গেইল ৭, নুরুল ১৭, ব্রাভো ০, জিয়াউর ০, লিনটন ৮, নাঈম ০, তাইজুল ২; নাহিদুল ৩/৫, মোস্তাফিজ ১/২২, শহীদুল ২/২২, তানভীর ২/১৯, করিম ২/২৬)।
+
+ফল: কুমিল্লা ৬৩ রানে জয়ী।
+
+ম্যান অব দ্য ম্যাচ: নাহিদুল ইসলাম।"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
